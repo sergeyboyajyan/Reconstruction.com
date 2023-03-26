@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 25px;
+}
+a{
+    margin: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+.banner-area{
+    position: relative;
+    background-image: url(Wallpaper.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-area, .about-area, .beunstoppable-area, .timeisgold-area, .youcanalsoread-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Poppins';
+}
+p{
+    font-style: 24px;
+    line-height: 50px;
+}
+.about-area, .timeisgold-area{
+    background: rgb(17, 125, 164);
+    color: #000;
+}
+.beunstoppable-area, .youcanalsoread-area{
+    background: rgb(17, 125, 164);
+}
+html{
+    scroll-behavior: smooth;
+}
